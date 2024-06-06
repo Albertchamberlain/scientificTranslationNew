@@ -1,0 +1,2 @@
+from pdf2image import  convert_from_path,convert_from_bytes
+images = convert_from_path('/mnt/d/ChromeDownload/cmder/scientific-visualization-book/figures/anatomy/zorder-plots.pdf',output_folder='../图片',fmt="PNG")
